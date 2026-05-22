@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PersonalHealthManagementPlatformApplication {
 
     public static void main(String[] args) {
+        log.info("Personal Health Management Platform Application Starting...");
         SpringApplication.run(PersonalHealthManagementPlatformApplication.class, args);
         log.info("Personal Health Management Platform Application Started...");
     }
